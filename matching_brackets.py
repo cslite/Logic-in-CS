@@ -1,9 +1,9 @@
 #CHECKING A STRING FOR MATCHING BRACKETS
 
 brdb = {'[':']',
-		'{':'}',
-		'(':')',
-		'<':'>'}
+	'{':'}',
+	'(':')',
+	'<':'>'}
 
 def match(s):
 	stack = []
@@ -17,8 +17,8 @@ def match(s):
 				stack.pop()
 		# print(stack)
 	if len(stack) == 0:		return True
-	else:					return False
+	else:				return False
 
 s = input("Enter a String: ")
 if(match(s)):	print("Brackets match!")
-else:			print("Brackets don't match!")
+else:		print("Brackets don't match!")
