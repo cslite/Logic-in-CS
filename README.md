@@ -1,2 +1,2 @@
 # Logic-in-CS
-Course Related Codes
+Implementations of some of the algorithms related to the course.
