@@ -39,7 +39,7 @@ def parse_phi(hf):
 				fai.append([['1'],hc])
 			elif hc[0] == '!':
 				#assuming that it is of the type !(p1&p2&...pn) , so it becomes p1&p2...&pn -> 0
-        #though ( ) are assumed, but they are not allowed.
+				#though ( ) are assumed, but they are not allowed.
 				fai.append([hc[1:].split('&'),'0'])
 	return fai
 
